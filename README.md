@@ -14,3 +14,6 @@ These tools will help you work more efficient. Tell me if you have any ideals an
    
 <b>FTE Text Field:<br /></b>
   Fte is an low text render engine, It's more faster than TextField, besides just spend half memory. It's cool right?
+
+<b>Polish Expression:<br /></b>
+  Unlike javascript and php, as3 can't caculate dynamic expression at run time. So we implement Polish Expression to deal with that. Now you can storage any expression like "hurt*3+atk-10" in the database, and get value when you need it at any time.
