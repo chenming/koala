@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<actionScriptProperties analytics="false" mainApplicationPath="quad/QuadDemo.as" projectUUID="574dee8f-074e-4d23-9653-70cf422378f6" version="11">
+<actionScriptProperties analytics="false" mainApplicationPath="objectpool/ObjectPoolDemo.as" projectUUID="574dee8f-074e-4d23-9653-70cf422378f6" version="11">
   <compiler additionalCompilerArguments="-locale zh_CN" advancedTelemetry="false" autoRSLOrdering="true" copyDependentFiles="true" fteInMXComponents="false" generateAccessible="false" htmlExpressInstall="true" htmlGenerate="false" htmlHistoryManagement="true" htmlPlayerVersionCheck="true" includeNetmonSwc="false" outputFolderPath="bin-debug" removeUnusedRSL="true" sourceFolderPath="src" strict="true" targetPlayerVersion="0.0.0" useApolloConfig="false" useDebugRSLSwfs="true" useFlashSDK="true" verifyDigests="true" warn="true">
     <compilerSourcePath>
       <compilerSourcePathEntry kind="1" linkType="1" path="E:/wamp/www/koala.git/trunk/core/src"/>
@@ -34,8 +34,8 @@
     <sourceAttachmentPath/>
   </compiler>
   <applications>
+    <application path="objectpool/ObjectPoolDemo.as"/>
     <application path="quad/QuadDemo.as"/>
-    <application path="Test.as"/>
   </applications>
   <modules/>
   <workers/>

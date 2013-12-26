@@ -18,7 +18,7 @@ package quad
 	 * 
 	 * @author tiago
 	 */
-	public class LeafDemo extends Shape implements DgIQuadTreeLeaf
+	internal class LeafDemo extends Shape implements DgIQuadTreeLeaf
 	{
 		private static const _SELECT_FILGER:Array	= [new GlowFilter(0xFF0000, 1, 20, 20)];
 		/**
