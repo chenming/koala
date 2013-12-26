@@ -13,7 +13,7 @@ package dragon.ui.fte
 	{
 		/**
 		 * 设置当前组件的默认样式
-		 * 支持fontFize, fontName, color
+		 * 支持 fontSize, fontName, color
 		 * 这些属性一样可以通过设置 <font> 节点的属性来设置 
 		 */
 		public var defFormat:Object;
