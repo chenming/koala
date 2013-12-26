@@ -3,6 +3,7 @@ package quad
 	import flash.display.Shape;
 	import flash.display.Sprite;
 	import flash.events.Event;
+	import flash.utils.getTimer;
 	
 	import dragon.algorithm.quadtree.DgIQuadTreeLeaf;
 	import dragon.algorithm.quadtree.DgQuadtree;
@@ -102,10 +103,13 @@ package quad
 		{
 			var curSlected:Vector.<DgIQuadTreeLeaf>;
 			var leaf:LeafDemo;
+			var preTime:int;
 			
 			_border.x 	= _hitRect.x = mouseX;
 			_border.y 	= _hitRect.y = mouseY;
+			preTime		= getTimer();
 			curSlected	=  _quadTree.searchRect( _hitRect );
+			trace( 'use: ', getTimer() - preTime + ' ms' );
 			
 			for each( leaf in _preSelected ) 
 			{
