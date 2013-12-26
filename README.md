@@ -17,3 +17,6 @@ These tools will help you work more efficient. Tell me if you have any ideals an
 
 <b>Polish Expression:<br /></b>
   Unlike javascript and php, as3 can't caculate dynamic expression at run time. So we implement Polish Expression to deal with that. Now you can storage any expression like "hurt*3+atk-10" in the database, and get value when you need it at any time.
+  
+<b>Data Binding:<br /></b>
+  It's so pity that air do not support data binding, it's so convenient to use in many occasions. Now we impelement an binding system instead of flex binding, besides it's more efficient beacuse we don't use event here.
