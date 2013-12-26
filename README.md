@@ -5,12 +5,12 @@ There are some wonderful tools for flash game developer like FTE text field, Gen
 
 These tools will help you work more efficient. Tell me if you have any ideals and suggestions.
 
-Quad Search Tree:
+<b>Quad Search Tree:<br /></b>
    A quick search algorithm which could help you find roles in the map in arpg games.
    The demo QuadDemo make 1000 moving roles in the screen, and hit test them every frame. You know what these search less than 1ms in my pc.
    
-General Object Pool:
+<b>General Object Pool:<br /></b>
   Coming soon.
    
-FTE Text Field:
+<b>FTE Text Field:<br /></b>
   Coming soon.   
