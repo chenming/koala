@@ -13,4 +13,4 @@ These tools will help you work more efficient. Tell me if you have any ideals an
   Object pool is so useful in high performance game, beacuse it can reduce gc's work greately. I designed a object pool tool which can be used in any environment.
    
 <b>FTE Text Field:<br /></b>
-  Coming soon.   
+  Fte is an low text render engine, It's more faster than TextField, besides just spend half memory. It's cool right?
