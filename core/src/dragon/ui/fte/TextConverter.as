@@ -67,14 +67,14 @@ package dragon.ui.fte
 				_inst.fontWeight 	= "normal";
 				_inst.fontPosture 	= "normal";
 			}
-//			try
-//			{
+			try
+			{
 				_inst.parseHtml(XML(pHtml), []);
-//			}
-//			catch (e:Error) 
-//			{
-//				trace( '【错误：】 XML解析异常 ', pHtml);
-//			}
+			}
+			catch (e:Error) 
+			{
+				trace( '【错误：】 XML解析异常 ', pHtml);
+			}
 			var elements:Vector.<ContentElement> = _inst.elements;
 			_inst.elements = null;
 			_inst.linkData = null;
